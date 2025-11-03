@@ -3,98 +3,100 @@ import React, { useMemo } from "react";
 import { HeroParallax } from "./ui/hero-parallax";
 
 export function HeroParallaxDemo() {
+
   return <HeroParallax products={products} />;
 }
-
 export const products = [
   {
-    title: "Aanya Singh",
+    title: "Diksha Dwivedi",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1eRVEjtSzj9Qm-Iklh45v1hiw5W2yvsnA",
+      "https://drive.google.com/uc?export=view&id=1wD_K9UalbhajIsCUmqt6D6W2iYZBY_9E",
   },
   {
-    title: "Ambika Sethi",
+    title: "Chetanya Jolly",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1nYj9mawzZJhNt-Gf6d3_xCbhruxxfIYr",
+      "https://drive.google.com/uc?export=view&id=1m5tWVGwxc2i768SlVAzVPfVMLKy_xPHX",
   },
   {
-    title: "Avichal Khanna",
+    title: "Chandra T.Pandey",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1BjUUCSwuJXoYgghgWFSF27O0tRtKl7c_",
+      "https://drive.google.com/uc?export=view&id=1J_OFrh0z1Nd_jnK9ry_78Ky1m__A0_vB",
   },
   {
-    title: "Bhumija",
+    title: "Sanya Dureja",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1heOD9n0fZZxKGIZH0uP4HbymSbi2ZS0M",
+      "https://drive.google.com/uc?export=view&id=1_s0wS8LAhB5hPHLi4FHO5lW6GlW4q3Y6",
   },
   {
-    title: "Gauransh Singh",
+    title: "Chanchal Agarwal",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=19xQTU7rIWF3RVzoLVkoIz2RDi-W3IUwC",
+      "/chanchalPhoto.jpeg",
   },
   {
-    title: "Gaurav Suthar",
+    title: "Bhoomika Gupta",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1TsH57BDNPy4GRwKXxGgy1FFTiZavRGIT",
+      "https://drive.google.com/uc?export=view&id=1Ios4hg_Ya6khwr-5yOGFhKu1bS2KP1xM",
   },
   {
-    title: "Kanishk Satyajit Das",
+    title: "Maldev Singh Chouhan",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=19-rmdmypFvGLCb7-R9t4Hb1S2-qhKKAC",
+      "https://drive.google.com/uc?export=view&id=1iL4O2LmLEufIjQrbyd8m6YaDIXLk_uvx",
   },
   {
-    title: "Mahak Jain",
+    title: "Shivam Kumar",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1k44hR3Du6nsEYq1w-cWD_HyXZIOfcrfh",
+      "https://drive.google.com/uc?export=view&id=1fxtcSlrLjVrEt9mzwXMg26KcOVq681AH",
   },
   {
-    title: "Mayank Goyal",
+    title: "Harsh Shishodia",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1zCC3J7iHmg-6WCrtLpa7SHKsXaj3he6R",
+      "https://drive.google.com/uc?export=view&id=1O_eyGRZ6ZC9DVHnaqcAOOxgXKuKrX1Od",
   },
   {
-    title: "Prakriti Mathur",
+    title: "Jyotiraditya",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1z-0y1MvHtZVE9FZiZNXTEefN6yBXk7eJ",
+      "https://drive.google.com/uc?export=view&id=1FGKw6No3fWd9xcg71zVBr0-FSzpCgsxD",
   },
   {
-    title: "Suyash Pandey",
+    title: "Swatantra choudhary",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1XKSSvtx89OmLg3xviNm7SPmeYJ6Vc8XK",
+      "/swatantraPhoto.jpeg",
   },
   {
-    title: "Vedant Srivastava",
-    link: "",
+    title: "Anish Deep Gulde",
+    link: "https://algochurn.com",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=15d0qtKu8STr_GCs6IgesTMCcGGev1sPX",
+      "/anishPhoto.jpeg",
   },
   {
-    title: "Ambika Sethi",
+    title: "Chetanya Jolly",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1nYj9mawzZJhNt-Gf6d3_xCbhruxxfIYr",
+      "https://drive.google.com/uc?export=view&id=1m5tWVGwxc2i768SlVAzVPfVMLKy_xPHX",
   },
   {
-    title: "Suyash Pandey",
+    title: "Swatantra choudhary",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1XKSSvtx89OmLg3xviNm7SPmeYJ6Vc8XK",
+      "/swatantraPhoto.jpeg",
   },
   {
-    title: "Mahak Jain",
+    title: "Chanchal Agarwal",
     link: "",
     thumbnail:
-      "https://drive.google.com/uc?export=view&id=1k44hR3Du6nsEYq1w-cWD_HyXZIOfcrfh",
+      "/chanchalPhoto.jpeg",
   },
 ];
+
+
