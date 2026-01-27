@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const cards = [
   {
-    link: "/branch/first",
+    link: "https://material.mujtoppers.in/materials/first-year",
     title: "First Year",
     description: "Foundation courses and core fundamentals",
     gradient: "bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600",
@@ -12,7 +12,7 @@ const cards = [
     direction: "left" // Coming from left
   },
   {
-    link: "/branch/second",
+    link: "https://material.mujtoppers.in/materials/btech",
     title: "Second Year",
     description: "Advanced topics and specialized skills",
     gradient: "bg-gradient-to-br from-emerald-500 via-teal-500 to-cyan-600",
@@ -20,7 +20,7 @@ const cards = [
     direction: "right" // Coming from right
   },
   {
-    link: "/branch/third",
+    link: "https://material.mujtoppers.in/materials/btech",
     title: "Third Year",
     description: "Practical applications and projects",
     gradient: "bg-gradient-to-br from-amber-500 via-orange-500 to-rose-600",
@@ -28,7 +28,7 @@ const cards = [
     direction: "left" // Coming from left
   },
   {
-    link: "/branch/fourth",
+    link: "https://material.mujtoppers.in/materials/btech",
     title: "Fourth Year",
     description: "Specialization and career preparation",
     gradient: "bg-gradient-to-br from-fuchsia-500 via-pink-500 to-rose-600",
