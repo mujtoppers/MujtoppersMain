@@ -7,7 +7,7 @@ import { Menu, X } from "lucide-react"; // Import close icon
 
 const navItems = [
   { label: "Home", href: "/" },
-  { label: "Material", href: "/#material" },
+  { label: "Material", href: "https://material.mujtoppers.in/" },
   // { label: "Order Food", href: "/order" },
   { label: "College Tip", href: "/collegeTip" },
   { label: "Blogs", href: "/blogs"},

@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="flex flex-col space-y-3">
           <h3 className="text-lg font-semibold text-gray-300">Quick Links</h3>
           <Link
-            href="/#material"
+            href="https://material.mujtoppers.in/"
             className="text-gray-400 hover:text-yellow-400 transition"
           >
             Study Materials
