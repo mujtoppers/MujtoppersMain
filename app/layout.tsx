@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "MUJ Toppers",
   description:
     "MUJ toppers is built to make your college life easier—Access, PYQs, toppers' notes, study tips, food delivery, and cab booking all in one place, powered by a passionate mix who have been through it. We ensure you have everything you need to excel—both inside and outside the classroom.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
