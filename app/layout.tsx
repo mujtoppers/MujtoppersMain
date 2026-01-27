@@ -30,6 +30,9 @@ export default function RootLayout({
   return (
     <ReactQueryClientProvider>
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body
         className={`${inter.variable} font-sans antialiased bg-gray-200/50`}
       >
