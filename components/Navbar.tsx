@@ -12,8 +12,7 @@ const navItems = [
   { label: "College Tip", href: "/collegeTip" },
   { label: "Blogs", href: "/blogs"},
   // { label: "Post-Exams & Events", href: "/afterExams" },
-  // { label: "About Us", href: "https://about.mujtoppers.in/" }
-  { label: "About Us", href: "/about" },
+  { label: "About Us", href: "https://about.mujtoppers.in/" },
 ];
 
 const Navbar = () => {
